@@ -32,3 +32,13 @@ properties:
   GRAYLOG_ELASTICSEARCH_HOSTS : http://appz-logcollectores-3-1:9200/
   GRAYLOG_ELASTICSEARCH_DISCOVERY_ENABLED : false
   GRAYLOG_ROOT_PASSWORD_SHA2 : aee6e0898de4b1316dabd00451ebeb3ec9e7fd9c03520497eff2b0a29bfdc776
+  transport_email_hostname: smtp.gmail.com
+  transport_email_port: 465
+  transport_email_use_auth: true
+  transport_email_use_tls: false
+  transport_email_use_ssl: true
+  transport_email_auth_username: sshajahan@ecloudcontrol.com
+  transport_email_auth_password:
+    vault: transport_email_auth_password
+  transport_email_subject_prefix: [graylog]
+  transport_email_from_email: sshajahan@ecloudcontrol.com
